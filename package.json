@@ -1,0 +1,85 @@
+{
+    "name": "typing-sounds",
+    "publisher": "Mtuan",
+    "displayName": "Typing Sounds",
+    "description": "Start typing with awesome typewriter sounds",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "homepage": "https://matto.io",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mattogodoy/hacker-sounds"
+    },
+    "keywords": [
+        "audio",
+        "sound",
+        "play sound",
+        "typing",
+        "typing sound",
+        "keypress",
+        "keypress sound",
+        "keyboard",
+        "Keyboard Sounds",
+        "hacker",
+        "fx",
+        "sci-fi",
+        "Typewriter",
+        "Typewriter sound",
+        "Fallout Sounds",
+        "Aural Coding"
+    ],
+    "icon": "icon.png",
+    "license": "MIT",
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "*"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "typing_sounds.enable",
+                "title": "Typing Sounds: Enable"
+            },
+            {
+                "command": "typing_sounds.disable",
+                "title": "Typing Sounds: Disable"
+            },
+            {
+                "command": "typing_sounds.volumeUp",
+                "title": "Typing Sounds: Volume Up"
+            },
+            {
+                "command": "typing_sounds.volumeDown",
+                "title": "Typing Sounds: Volume Down"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "pretest": "npm run compile",
+        "test": "node ./out/test/runTest.js"
+    },
+    "devDependencies": {
+        "@types/glob": "^7.1.1",
+        "@types/lodash.debounce": "^4.0.6",
+        "@types/mocha": "^5.2.7",
+        "@types/node": "^12.11.7",
+        "@types/vscode": "^1.40.0",
+        "glob": "^7.1.5",
+        "mocha": "^6.2.2",
+        "tslint": "^5.20.0",
+        "typescript": "^3.6.4",
+        "vscode-test": "^1.2.2"
+    },
+    "dependencies": {
+        "lodash.debounce": "^4.0.8",
+        "play-sound": "^1.1.3"
+    }
+}
