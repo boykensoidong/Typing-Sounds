@@ -1,17 +1,74 @@
+<div align="center">
+
 # Typing-Sounds
 
-<!-- [![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/v/mattogodoy.hacker-sounds.svg)](https://marketplace.visualstudio.com/items?itemName=mattogodoy.hacker-sounds)
-[![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/mattogodoy.hacker-sounds.svg)](https://marketplace.visualstudio.com/items?itemName=mattogodoy.hacker-sounds)
-[![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/r/mattogodoy.hacker-sounds.svg)](https://marketplace.visualstudio.com/items?itemName=mattogodoy.hacker-sounds)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/jengjeng/aural-coding-vscode/blob/master/LICENSE) -->
+[![LOGO](https://github.com/boykensoidong/Typing-Sounds/blob/main/icon-new.png?raw=true)](https://marketplace.visualstudio.com/items/MTuan.night-eyes-theme)
 
 Start typing with awesome typewriter sounds
 
-This Visual Studio Code extension automatically turns you into a very skilled hacker by playing movie-like sounds while you write code.
+
+[![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/v/mtuan.typing-sounds.svg)](https://marketplace.visualstudio.com/items?itemName=mattogodoy.hacker-sounds)
+[![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/d/mtuan.typing-sounds.svg)](https://marketplace.visualstudio.com/items?itemName=mattogodoy.hacker-sounds)
+[![Visual Studio Marketplace](https://img.shields.io/vscode-marketplace/r/mtuan.typing-sounds.svg)](https://marketplace.visualstudio.com/items?itemName=mattogodoy.hacker-sounds)
+[![GitHub Repo](https://img.shields.io/badge/GitHub%20Repo-%20-fff.svg?logo=GitHub&style=social)](https://github.com/boykensoidong/Typing-Sounds)
+<div align="left">
+
+_this extension is a **clone** of [Hacker Sounds](https://marketplace.visualstudio.com/items?itemName=mattogodoy.hacker-sounds) in Marketplace, sounds are taken from **Fallout Sounds** and **Keyboard Sounds**_
+
+<div align="center">
+
+## 🔊🎵
+For the best experience this extension should be accompanied with [Power Mode](https://marketplace.visualstudio.com/items?itemName=hoovercj.vscode-power-mode) 
+</div>
+
+<div align="center">
+
+### these following key will have effect sound while pressing:
+```
+TAB🔉
+SPACE🔉
+ENTER🔉
+DELETE🔉
+CUT(ctrl+x)🔉
+ARROW(up-down-left-right)🔉
+```
+## How to use
+</div>
+
+## Volume control
+
+You can adjust the volume of the sounds by executing these commands in the Command Palette (Cmd+Shift+P) or press F1 key:
+
+<div align="center">
+
+**_chỉnh to nhỏ âm lượng gõ lệnh sau:_**
+</div>
+
+
+- `Typing Sounds: Volume Up`   🔉🔊
+- `Typing Sounds: Volume Down`  🔈
+
+**NOTE:** The volume adjustments only apply to this extension's sounds. It does not affect the system volume.
+
+## Enable / Disable 
+- Restart visual studio code after Enable/Disable
+
+Typing Sounds will start immediately when Visual Studio Code is started. However, you can enable and disable the extension by executing these commands in the Command Palette (Cmd+Shift+P) or press F1 key:
+
+- `Typing Sounds: Enable` 🔔
+- `Typing Sounds: Disable` 🔕
+
+<div align="center">
 
 ## Requirements
 
-### Linux
+</div>
+
+### Windows and Mac
+
+Support for Windows and Mac, No special requirements.
+
+### For Linux Users
 
 On Linux, you will need to have mplayer installed and on your PATH to get this extension working.
 
@@ -29,89 +86,7 @@ sudo dnf install mplayer
 ```bash
 sudo pacman -S mplayer
 ```
-
-### Windows and Mac
-
-No special requirements.
-
-
-## Installation
-
-Run `code --install-extension mattogodoy.hacker-sounds`
-
-or search [Hacker Sounds](https://marketplace.visualstudio.com/items?itemName=mattogodoy.hacker-sounds) in Extensions Marketplace.
-
-## How to use
-
-### Enable / Disable
-
-Hacker Sounds will start immediately when Visual Studio Code is started. However, you can enable and disable the extension by executing these commands in the Command Palette (Cmd+Shift+P):
-
-- `Hacker Sounds: Enable`
-- `Hacker Sounds: Disable`
-
-### Volume control
-
-You can adjust the volume of the sounds by executing these commands in the Command Palette (Cmd+Shift+P):
-
-- `Hacker Sounds: Volume Up`
-- `Hacker Sounds: Volume Down`
-
-**NOTE:** The volume adjustments only apply to this extension's sounds. It does not affect the system volume.
-
-## Known Issues & Bugs
-
-The extension is in a very early stage. Please report any issues / bugs you find.
-
-## Contributing
-
-Any pull request is welcome.
-
-## Release Notes
-
-### 1.3.0
-
-- Now you can adjust volume levels for Mac, Windows and Linux. This feature has not been tested in Linux yet.
-- Merged Pull Request [#5](https://github.com/mattogodoy/hacker-sounds/pull/5)
-    - Thanks, [Jory Liang](https://github.com/liangzr)!
-- Replaced [sWavPlayer](https://www.dcmembers.com/skwire/download/swavplayer/) for [sounder](https://www.elifulkerson.com/projects/commandline-wav-player.php) as the Windows sound player with the following benefits:
-    - Much smaller in size (sounder is 33 KB and sWavPlayer was 878 KB)
-    - Performance in Windows is greatly improved
-    - Allows to set the volume
-- Updated dependencies
-
-### 1.2.0
-
-- Sounds improved in volume level and quality.
-    - Thanks, [exoticus](https://github.com/exoticus)!
-- Merged Pull Request [#3](https://github.com/mattogodoy/hacker-sounds/pull/3)
-    - Thanks, [tiansin](https://github.com/tiansin)!
-
-### 1.1.1
-
-- Merged Pull Request [#2](https://github.com/mattogodoy/hacker-sounds/pull/2)
-    - Thanks, [tiansin](https://github.com/tiansin)!
-
-### 1.1.0
-
-- Refactored part of the code
-- New and better sounds
-
-### 1.0.3
-
-Fixed issue [#1](https://github.com/mattogodoy/hacker-sounds/issues/1)
-
-### 1.0.2
-
-Added fix for Windows. It's working now 🎉
-
-### 1.0.1
-
-Updated README information.
-
-### 1.0.0
-
-Initial release. Working on macOS.
+</div>
 
 
 ## Credits
@@ -121,4 +96,4 @@ https://www.elifulkerson.com/projects/commandline-wav-player.php
 
 -----------------------------------------------------------------------------------------------------------
 
-**Hack the world!**
+</div>
