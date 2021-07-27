@@ -23,7 +23,7 @@ For the best experience this extension should be accompanied with [Power Mode](h
 
 <div align="center">
 
-### these following key will have effect sound while pressing:
+### these following keys will have effect sound while pressing:
 ```
 TAB🔉
 SPACE🔉
